@@ -11,8 +11,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
-
 public class GoogleSearchSteps {
     WebDriver driver;
     WebDriverWait wait;
@@ -21,7 +19,6 @@ public class GoogleSearchSteps {
     public void userIsOnGooglePage() throws Throwable {
         //Create a new instance of the Firefox driver
         driver = new FirefoxDriver();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 
         //Open the browser
         driver.get("https://www.google.com");

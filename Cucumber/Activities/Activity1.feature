@@ -1,5 +1,5 @@
 @activity1
-Feature: Basic Syntax
+Feature: First Test
 
   Scenario: Opening a webpage using Selenium
     Given User is on Google Home Page

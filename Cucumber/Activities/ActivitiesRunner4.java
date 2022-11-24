@@ -1,15 +1,14 @@
 package testRunner;
-import org.junit.runner.RunWith;
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
+import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "Activity1.feature",
+        features = "Features",
         glue = {"stepDefinitions"},
-        tags = "@activity1"
+        tags = "@activity4"
 )
 
-public class ActivitiesRunner {
-    //empty
-}
+public class ActivitiesRunner4 {}
